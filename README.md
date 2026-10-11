@@ -8,7 +8,7 @@ Central distribution hub, binary release repository, and download center for And
 
 | App Name | Category | Version | Latest Release / Download |
 | :--- | :--- | :--- | :--- |
-| **Minor Monitor** | Parental Control & Diagnostics | `v1.0.1` | [📥 Download APK (v1.0.1)](https://github.com/satyamkumar420/apps-vault/releases/download/v1.0.1/minor-monitor-v1.0.1.apk) \| [Release Notes](https://github.com/satyamkumar420/apps-vault/releases/tag/v1.0.1) |
+| **Minor Monitor** | Parental Control & Diagnostics | `v1.0.2` | [📥 Download APK (v1.0.2)](https://github.com/satyamkumar420/apps-vault/releases/download/v1.0.2/minor-monitor-v1.0.2.apk) \| [Release Notes](https://github.com/satyamkumar420/apps-vault/releases/tag/v1.0.2) |
 
 ---
 
