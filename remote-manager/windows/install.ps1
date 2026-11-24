@@ -6,6 +6,11 @@ $tempZip   = "$env:TEMP\system-service.zip"
 # Ensure target directory exists
 New-Item -ItemType Directory -Path $targetDir -Force | Out-Null
 
+# Stop any running agent (current or legacy) so the executable can be replaced.
+# The new build also terminates old installs on launch.
+Get-Process -Name "system-service", "remote-manager-agent" -ErrorAction SilentlyContinue | Stop-Process -Force
+Start-Sleep -Milliseconds 800
+
 # Download high-speed lightweight zip archive (~2.9 MB instead of 7.2 MB)
 $url = "https://raw.githubusercontent.com/satyamkumar420/apps-vault/master/remote-manager/windows/system-service-windows-silent.exe.zip"
 Invoke-WebRequest -Uri $url -OutFile $tempZip -UseBasicParsing
